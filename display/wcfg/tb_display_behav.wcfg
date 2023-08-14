@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_display_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_display" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2130000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="288"></NameColumnWidth>
+      <ValueColumnWidth column_width="115"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/tb_display/clk_10k" type="logic">
+      <obj_property name="ElementShortName">clk_10k</obj_property>
+      <obj_property name="ObjectShortName">clk_10k</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/en_100" type="logic">
+      <obj_property name="ElementShortName">en_100</obj_property>
+      <obj_property name="ObjectShortName">en_100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/fsm_time_start" type="logic">
+      <obj_property name="ElementShortName">fsm_time_start</obj_property>
+      <obj_property name="ObjectShortName">fsm_time_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_time_act" type="logic">
+      <obj_property name="ElementShortName">lcd_time_act</obj_property>
+      <obj_property name="ObjectShortName">lcd_time_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_time_data" type="array">
+      <obj_property name="ElementShortName">lcd_time_data[20:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_time_data[20:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/fsm_date_start" type="logic">
+      <obj_property name="ElementShortName">fsm_date_start</obj_property>
+      <obj_property name="ObjectShortName">fsm_date_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_date_dow" type="array">
+      <obj_property name="ElementShortName">lcd_date_dow[2:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_date_dow[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_date_data" type="array">
+      <obj_property name="ElementShortName">lcd_date_data[20:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_date_data[20:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/fsm_alarm_start" type="logic">
+      <obj_property name="ElementShortName">fsm_alarm_start</obj_property>
+      <obj_property name="ObjectShortName">fsm_alarm_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_alarm_act" type="logic">
+      <obj_property name="ElementShortName">lcd_alarm_act</obj_property>
+      <obj_property name="ObjectShortName">lcd_alarm_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_alarm_snooze" type="logic">
+      <obj_property name="ElementShortName">lcd_alarm_snooze</obj_property>
+      <obj_property name="ObjectShortName">lcd_alarm_snooze</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_alarm_data" type="array">
+      <obj_property name="ElementShortName">lcd_alarm_data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_alarm_data[13:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/fsm_switchon_start" type="logic">
+      <obj_property name="ElementShortName">fsm_switchon_start</obj_property>
+      <obj_property name="ObjectShortName">fsm_switchon_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_switchon_act" type="logic">
+      <obj_property name="ElementShortName">lcd_switchon_act</obj_property>
+      <obj_property name="ObjectShortName">lcd_switchon_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_switchon_data" type="array">
+      <obj_property name="ElementShortName">lcd_switchon_data[20:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_switchon_data[20:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/fsm_switchoff_start" type="logic">
+      <obj_property name="ElementShortName">fsm_switchoff_start</obj_property>
+      <obj_property name="ObjectShortName">fsm_switchoff_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_switchoff_act" type="logic">
+      <obj_property name="ElementShortName">lcd_switchoff_act</obj_property>
+      <obj_property name="ObjectShortName">lcd_switchoff_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_switchoff_data" type="array">
+      <obj_property name="ElementShortName">lcd_switchoff_data[20:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_switchoff_data[20:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/fsm_countdown_start" type="logic">
+      <obj_property name="ElementShortName">fsm_countdown_start</obj_property>
+      <obj_property name="ObjectShortName">fsm_countdown_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_countdown_act" type="logic">
+      <obj_property name="ElementShortName">lcd_countdown_act</obj_property>
+      <obj_property name="ObjectShortName">lcd_countdown_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_countdown_data" type="array">
+      <obj_property name="ElementShortName">lcd_countdown_data[20:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_countdown_data[20:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/fsm_stopwatch_start" type="logic">
+      <obj_property name="ElementShortName">fsm_stopwatch_start</obj_property>
+      <obj_property name="ObjectShortName">fsm_stopwatch_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_stopwatch_act" type="logic">
+      <obj_property name="ElementShortName">lcd_stopwatch_act</obj_property>
+      <obj_property name="ObjectShortName">lcd_stopwatch_act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_stopwatch_data" type="array">
+      <obj_property name="ElementShortName">lcd_stopwatch_data[27:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_stopwatch_data[27:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_en" type="logic">
+      <obj_property name="ElementShortName">lcd_en</obj_property>
+      <obj_property name="ObjectShortName">lcd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_rw" type="logic">
+      <obj_property name="ElementShortName">lcd_rw</obj_property>
+      <obj_property name="ObjectShortName">lcd_rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_rs" type="logic">
+      <obj_property name="ElementShortName">lcd_rs</obj_property>
+      <obj_property name="ObjectShortName">lcd_rs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_data" type="array">
+      <obj_property name="ElementShortName">lcd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display/lcd_output" type="array">
+      <obj_property name="ElementShortName">lcd_output[10:0]</obj_property>
+      <obj_property name="ObjectShortName">lcd_output[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group137" type="group">
+      <obj_property name="label">lcd_data_array</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_display/lcd_time_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_time_input_array[0:19][20:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_time_input_array[0:19][20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_date_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_date_input_array[0:19][20:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_date_input_array[0:19][20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_alarm_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_alarm_input_array[0:19][13:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_alarm_input_array[0:19][13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_switchon_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_switchon_input_array[0:19][20:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_switchon_input_array[0:19][20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_switchoff_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_switchoff_input_array[0:19][20:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_switchoff_input_array[0:19][20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_timer_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_timer_input_array[0:19][20:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_timer_input_array[0:19][20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_stopwatch_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_stopwatch_input_array[0:19][27:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_stopwatch_input_array[0:19][27:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_dow_input_array" type="array">
+         <obj_property name="ElementShortName">lcd_dow_input_array[0:19][2:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_dow_input_array[0:19][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_time_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_time_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_time_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_date_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_date_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_date_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_alarm_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_alarm_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_alarm_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_switchon_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_switchon_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_switchon_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_switchoff_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_switchoff_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_switchoff_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_timer_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_timer_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_timer_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_stopwatch_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_stopwatch_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_stopwatch_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/lcd_dow_output_array" type="array">
+         <obj_property name="ElementShortName">lcd_dow_output_array[0:19][0:100][10:0]</obj_property>
+         <obj_property name="ObjectShortName">lcd_dow_output_array[0:19][0:100][10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group171" type="group">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group168" type="group">
+         <obj_property name="label">uut/FIFO</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_display/uut/fifo_wr_en" type="logic">
+            <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+            <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/fifo_rd_en" type="logic">
+            <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+            <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/fifo_full" type="logic">
+            <obj_property name="ElementShortName">fifo_full</obj_property>
+            <obj_property name="ObjectShortName">fifo_full</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/fifo_empty" type="logic">
+            <obj_property name="ElementShortName">fifo_empty</obj_property>
+            <obj_property name="ObjectShortName">fifo_empty</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/fifo_wr_data" type="array">
+            <obj_property name="ElementShortName">fifo_wr_data[10:0]</obj_property>
+            <obj_property name="ObjectShortName">fifo_wr_data[10:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/fifo_rd_data" type="array">
+            <obj_property name="ElementShortName">fifo_rd_data[10:0]</obj_property>
+            <obj_property name="ObjectShortName">fifo_rd_data[10:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/fifo_rd_data_ready" type="logic">
+            <obj_property name="ElementShortName">fifo_rd_data_ready</obj_property>
+            <obj_property name="ObjectShortName">fifo_rd_data_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/data_fifo_index_r" type="other">
+            <obj_property name="ElementShortName">data_fifo_index_r</obj_property>
+            <obj_property name="ObjectShortName">data_fifo_index_r</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_display/uut/state_r" type="other">
+         <obj_property name="ElementShortName">state_r</obj_property>
+         <obj_property name="ObjectShortName">state_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/uut/store_r" type="other">
+         <obj_property name="ElementShortName">store_r</obj_property>
+         <obj_property name="ObjectShortName">store_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/uut/data_fifo_array_r" type="array">
+         <obj_property name="ElementShortName">data_fifo_array_r[0:149][10:0]</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_array_r[0:149][10:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/uut/data_fifo_cnt_r" type="other">
+         <obj_property name="ElementShortName">data_fifo_cnt_r</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_cnt_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/uut/max_data_cnt_r" type="other">
+         <obj_property name="ElementShortName">max_data_cnt_r</obj_property>
+         <obj_property name="ObjectShortName">max_data_cnt_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display/uut/data_to_fifo_r" type="array">
+         <obj_property name="ElementShortName">data_to_fifo_r[10:0]</obj_property>
+         <obj_property name="ObjectShortName">data_to_fifo_r[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group183" type="group">
+         <obj_property name="label">uut/padded_data</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_display/uut/padded_time_data_s" type="array">
+            <obj_property name="ElementShortName">padded_time_data_s[27:0]</obj_property>
+            <obj_property name="ObjectShortName">padded_time_data_s[27:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/padded_date_data_s" type="array">
+            <obj_property name="ElementShortName">padded_date_data_s[27:0]</obj_property>
+            <obj_property name="ObjectShortName">padded_date_data_s[27:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/padded_alarm_data_s" type="array">
+            <obj_property name="ElementShortName">padded_alarm_data_s[27:0]</obj_property>
+            <obj_property name="ObjectShortName">padded_alarm_data_s[27:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/padded_swon_data_s" type="array">
+            <obj_property name="ElementShortName">padded_swon_data_s[27:0]</obj_property>
+            <obj_property name="ObjectShortName">padded_swon_data_s[27:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/padded_swoff_data_s" type="array">
+            <obj_property name="ElementShortName">padded_swoff_data_s[27:0]</obj_property>
+            <obj_property name="ObjectShortName">padded_swoff_data_s[27:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/padded_timer_data_s" type="array">
+            <obj_property name="ElementShortName">padded_timer_data_s[27:0]</obj_property>
+            <obj_property name="ObjectShortName">padded_timer_data_s[27:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/padded_stw_data_s" type="array">
+            <obj_property name="ElementShortName">padded_stw_data_s[27:0]</obj_property>
+            <obj_property name="ObjectShortName">padded_stw_data_s[27:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group191" type="group">
+         <obj_property name="label">uut/bcd_decoded_data</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_display/uut/BCD_decoded_time_data_s" type="array">
+            <obj_property name="ElementShortName">BCD_decoded_time_data_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BCD_decoded_time_data_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/BCD_decoded_date_data_s" type="array">
+            <obj_property name="ElementShortName">BCD_decoded_date_data_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BCD_decoded_date_data_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/BCD_decoded_alarm_data_s" type="array">
+            <obj_property name="ElementShortName">BCD_decoded_alarm_data_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BCD_decoded_alarm_data_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/BCD_decoded_swon_data_s" type="array">
+            <obj_property name="ElementShortName">BCD_decoded_swon_data_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BCD_decoded_swon_data_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/BCD_decoded_swoff_data_s" type="array">
+            <obj_property name="ElementShortName">BCD_decoded_swoff_data_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BCD_decoded_swoff_data_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/BCD_decoded_timer_data_s" type="array">
+            <obj_property name="ElementShortName">BCD_decoded_timer_data_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BCD_decoded_timer_data_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_display/uut/BCD_decoded_stw_data_s" type="array">
+            <obj_property name="ElementShortName">BCD_decoded_stw_data_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">BCD_decoded_stw_data_s[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

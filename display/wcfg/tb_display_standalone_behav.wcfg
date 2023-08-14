@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_display_standalone_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_display_standalone" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7217534470000fs"></ZoomStartTime>
+      <ZoomEndTime time="9761534470001fs"></ZoomEndTime>
+      <Cursor1Time time="8049534470000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="369"></NameColumnWidth>
+      <ValueColumnWidth column_width="127"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/tb_display_standalone/GCLK" type="logic">
+      <obj_property name="ElementShortName">GCLK</obj_property>
+      <obj_property name="ObjectShortName">GCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/BTNU" type="logic">
+      <obj_property name="ElementShortName">BTNU</obj_property>
+      <obj_property name="ObjectShortName">BTNU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/BTND" type="logic">
+      <obj_property name="ElementShortName">BTND</obj_property>
+      <obj_property name="ObjectShortName">BTND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/BTNL" type="logic">
+      <obj_property name="ElementShortName">BTNL</obj_property>
+      <obj_property name="ObjectShortName">BTNL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/BTNR" type="logic">
+      <obj_property name="ElementShortName">BTNR</obj_property>
+      <obj_property name="ObjectShortName">BTNR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/SW" type="array">
+      <obj_property name="ElementShortName">SW[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/LED" type="array">
+      <obj_property name="ElementShortName">LED[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/LCD_E" type="logic">
+      <obj_property name="ElementShortName">LCD_E</obj_property>
+      <obj_property name="ObjectShortName">LCD_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/LCD_RW" type="logic">
+      <obj_property name="ElementShortName">LCD_RW</obj_property>
+      <obj_property name="ObjectShortName">LCD_RW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/LCD_RS" type="logic">
+      <obj_property name="ElementShortName">LCD_RS</obj_property>
+      <obj_property name="ObjectShortName">LCD_RS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/LCD_DATA" type="array">
+      <obj_property name="ElementShortName">LCD_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LCD_DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/LCD_ADDR" type="array">
+      <obj_property name="ElementShortName">LCD_ADDR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">LCD_ADDR[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/LCD_OUTPUT" type="array">
+      <obj_property name="ElementShortName">LCD_OUTPUT[10:0]</obj_property>
+      <obj_property name="ObjectShortName">LCD_OUTPUT[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="group78" type="group">
+      <obj_property name="label">CLK_GEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_display_standalone/uut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/en_1K" type="logic">
+         <obj_property name="ElementShortName">en_1K</obj_property>
+         <obj_property name="ObjectShortName">en_1K</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/en_100" type="logic">
+         <obj_property name="ElementShortName">en_100</obj_property>
+         <obj_property name="ObjectShortName">en_100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/en_10" type="logic">
+         <obj_property name="ElementShortName">en_10</obj_property>
+         <obj_property name="ObjectShortName">en_10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/en_1" type="logic">
+         <obj_property name="ElementShortName">en_1</obj_property>
+         <obj_property name="ObjectShortName">en_1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_display_standalone/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="group77" type="group">
+      <obj_property name="label">PADDED_DATA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/BCD_decoded_time_data_s" type="array">
+         <obj_property name="ElementShortName">BCD_decoded_time_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCD_decoded_time_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/BCD_decoded_date_data_s" type="array">
+         <obj_property name="ElementShortName">BCD_decoded_date_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCD_decoded_date_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/BCD_decoded_alarm_data_s" type="array">
+         <obj_property name="ElementShortName">BCD_decoded_alarm_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCD_decoded_alarm_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/BCD_decoded_swon_data_s" type="array">
+         <obj_property name="ElementShortName">BCD_decoded_swon_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCD_decoded_swon_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/BCD_decoded_swoff_data_s" type="array">
+         <obj_property name="ElementShortName">BCD_decoded_swoff_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCD_decoded_swoff_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/BCD_decoded_timer_data_s" type="array">
+         <obj_property name="ElementShortName">BCD_decoded_timer_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCD_decoded_timer_data_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/BCD_decoded_stw_data_s" type="array">
+         <obj_property name="ElementShortName">BCD_decoded_stw_data_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BCD_decoded_stw_data_s[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group76" type="group">
+      <obj_property name="label">STORE_DATA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/data_fifo_array_r" type="array">
+         <obj_property name="ElementShortName">data_fifo_array_r[0:99][10:0]</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_array_r[0:99][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/data_fifo_cnt_r" type="other">
+         <obj_property name="ElementShortName">data_fifo_cnt_r</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_cnt_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/data_fifo_index_r" type="other">
+         <obj_property name="ElementShortName">data_fifo_index_r</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_index_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_wr_en" type="logic">
+         <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+         <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_rd_en" type="logic">
+         <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_full" type="logic">
+         <obj_property name="ElementShortName">fifo_full</obj_property>
+         <obj_property name="ObjectShortName">fifo_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_empty" type="logic">
+         <obj_property name="ElementShortName">fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">fifo_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_wr_data" type="array">
+         <obj_property name="ElementShortName">fifo_wr_data[10:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_wr_data[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_rd_data" type="array">
+         <obj_property name="ElementShortName">fifo_rd_data[10:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_rd_data[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_rd_data_ready" type="logic">
+         <obj_property name="ElementShortName">fifo_rd_data_ready</obj_property>
+         <obj_property name="ObjectShortName">fifo_rd_data_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/store_r" type="other">
+         <obj_property name="ElementShortName">store_r</obj_property>
+         <obj_property name="ObjectShortName">store_r</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group75" type="group">
+      <obj_property name="label">SEND_FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/state_r" type="other">
+         <obj_property name="ElementShortName">state_r</obj_property>
+         <obj_property name="ObjectShortName">state_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_wr_en" type="logic">
+         <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+         <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/fifo_wr_data" type="array">
+         <obj_property name="ElementShortName">fifo_wr_data[10:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_wr_data[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/data_fifo_index_r" type="other">
+         <obj_property name="ElementShortName">data_fifo_index_r</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_index_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_display_standalone/uut/display_i/data_fifo_array_r" type="array">
+         <obj_property name="ElementShortName">data_fifo_array_r[0:99][10:0]</obj_property>
+         <obj_property name="ObjectShortName">data_fifo_array_r[0:99][10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
