@@ -1,4 +1,4 @@
-# IC-design-lab
+# Project Laboratory IC-Design
 
 ## Description
 
